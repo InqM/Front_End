@@ -1,24 +1,18 @@
 [[source]]
-name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
-
-[dev-packages]
-flake8 = "*"
-flake8-docstrings = "*"
-jupyter = "*"
-pep8-naming = "*"
-pytest = "*"
-requests = "*"
+name = "pypi"
 
 [packages]
+pandas = "==1.1.5"
 fastapi = "*"
-pandas = "*"
 plotly = "*"
 sqlalchemy = "*"
-uvicorn = {extras = ["standard"], version = "*"}
+uvicorn = "*"
 scikit-learn = "*"
 seaborn = "*"
 
+[dev-packages]
+
 [requires]
-python_version = "3"
+python_version = "3.8"
